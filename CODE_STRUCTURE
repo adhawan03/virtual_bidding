@@ -1,0 +1,15 @@
+
+The purpose of this file is to outline code structure throughout the virtual bidding project. 
+
+DATA:
+stored as a series of .csv files. formatted as
+"YYYYMMDDdamlp_zone_csv" for Day-ahead Locational based marginal pricing.
+Folders contain month of data, data are split in .csv files by day
+
+data are stored by categories: "Time Stamp,Name,PTID,LBMP ($/MWHr),Marginal Cost Losses ($/MWHr),Marginal Cost Congestion ($/MWHr)"
+
+3/5/2025
+Found API key to live electricity markets on "gridstatus.io"
+"8a181d02784c4ae3b3d4f2d7e41a3158"
+"https://api.gridstatus.io/v1/datasets?api_key=8a181d02784c4ae3b3d4f2d7e41a3158&limit=1000"
+3/12/2026
